@@ -1,4 +1,4 @@
-# Redux Básico
+# Redux Básico 2
 
 Este es el ejercicio hecho en el curso de REDUX mío de Udemy.
 
