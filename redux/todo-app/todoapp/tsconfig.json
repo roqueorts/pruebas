@@ -4,7 +4,9 @@
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
-    "strict": false,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
@@ -14,11 +16,11 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "ES2020",
-    "module": "ES2015",
+    "target": "ES2022",
+    "module": "ES2022",
     "useDefineForClassFields": false,
     "lib": [
-      "ES2015",
+      "ES2022",
       "dom"
     ]
   },

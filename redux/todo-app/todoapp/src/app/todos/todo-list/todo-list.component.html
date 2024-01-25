@@ -1,0 +1,7 @@
+<ul class="todo-list">
+    <!-- | filtroTodo:filtroActual" [todo]="todo" -->
+    @for (todo of todos; track $index) {
+    <app-todo-item [todo]="todo"></app-todo-item>
+    }
+
+</ul>
